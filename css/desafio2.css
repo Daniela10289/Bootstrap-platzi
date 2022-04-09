@@ -1,0 +1,19 @@
+.container {
+    background-color: coral;
+    margin-top: 20px;
+}
+
+.col-md-3{
+    border: 1px solid black;
+    height: 100px;
+}
+
+.col-sm-6{
+    border: 1px solid black;
+    height: 100px;
+}
+
+.col{
+    border: 1px solid black;
+    height: 70px;
+}
