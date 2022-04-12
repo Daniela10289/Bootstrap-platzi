@@ -12,7 +12,7 @@
   </head>
   <body data-spy="scroll" data-target="#navbar" data-offset="57">
     <!-- Header -->
-    <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top"> <!-- el header se mantiene cuando se haga scroll -->
       <div class="container">
         <a class="navbar-brand" href="#">
           <img src="assets/images/platzi-logo.png" alt="Platzi logo">
@@ -23,12 +23,12 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbar">
-          <ul class="navbar-nav ml-auto">
+          <ul class="navbar-nav ml-auto"> <!-- ml margin left -->
             <li class="nav-item">
               <a class="nav-link" href="#main">La conferencia</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#speakers">Las oradores</a>
+              <a class="nav-link" href="#speakers">Los oradores</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#place-time">El lugar y la fecha</a>
@@ -63,7 +63,7 @@
               <div class="row align-items-center">
                 <div class="col-md-6 offset-md-6 text-center text-md-right">
                   <h1>Platzi Conf Hawaii</h1>
-                  <p class="d-none d-md-block">
+                  <p class="d-none d-md-block"> <!-- Aparece apartir del md -->
                     Platzi Conf llega por pimera vez a Hawaii! Un evento para
                     compartir con nuestra comunidad el conocimiento y experiencia
                     de los expertos que están creando el futuro de internet.
@@ -84,7 +84,7 @@
 
     <!-- Speakers -->
     <section id="speakers" class="mt-4">
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
           <div class="col text-center text-uppercase">
             <small>Conoce a los</small>
@@ -92,55 +92,55 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-12 col-md-6 col-lg-4 mb-4">
-            <div class="card">
-              <img class="card-img-top" src="assets/speakers/sacha.jpg" alt="Foto de Sacha">
+          <div class="col-12 col-md-6 col-lg-3 mb-4">
+            <div class="card text-center">
+              <img class="rounded-circle" src="assets/speakers/sacha.jpg" alt="Foto de Sacha">
               <div class="card-body">
-                <div class="badges">
-                  <span class="badge badge-warning">JavaScript</span>
-                  <span class="badge badge-info">React</span>
-                </div>
                 <h5 class="card-title">Sacha Lifszyc</h5>
-                <p class="card-text">Vivamus quam mi, egestas eu metus id, mollis suscipit ipsum. In vel mollis mauris. Nunc id sem a lacus tincidunt pretium in in urna. Nam mi nisi, tincidunt ac tincidunt id, fermentum at metus.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4 mb-4">
-            <div class="card">
-              <img class="card-img-top" src="assets/speakers/leonidas2.jpeg" alt="Foto de Sacha">
-              <div class="card-body">
                 <div class="badges">
                   <span class="badge badge-warning">JavaScript</span>
                   <span class="badge badge-info">React</span>
                 </div>
+                <p class="card-text text-justify">Vivamus quam mi, egestas eu metus id, mollis suscipit ipsum. In vel mollis mauris. Nunc id sem a lacus tincidunt pretium in in urna. Nam mi nisi, tincidunt ac tincidunt id, fermentum at metus.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 mb-4">
+            <div class="card text-center">
+              <img class="rounded-circle" src="assets/speakers/leonidas2.jpeg" alt="Foto de Sacha">
+              <div class="card-body">
                 <h5 class="card-title">Leonidas Esteban</h5>
-                <p class="card-text">Vivamus quam mi, egestas eu metus id, mollis suscipit ipsum. In vel mollis mauris. Nunc id sem a lacus tincidunt pretium in in urna. Nam mi nisi, tincidunt ac tincidunt id, fermentum at metus.</p>
+                <div class="badges">
+                  <span class="badge badge-warning">JavaScript</span>
+                  <span class="badge badge-info">React</span>
+                </div>
+                <p class="card-text text-justify">Vivamus quam mi, egestas eu metus id, mollis suscipit ipsum. In vel mollis mauris. Nunc id sem a lacus tincidunt pretium in in urna. Nam mi nisi, tincidunt ac tincidunt id, fermentum at metus.</p>
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-6 col-lg-4 mb-4">
-            <div class="card">
-              <img class="card-img-top" src="assets/speakers/freddy.jpeg" alt="Foto de Sacha">
+          <div class="col-12 col-md-6 col-lg-3 mb-4">
+            <div class="card text-center">
+              <img class="rounded-circle" src="assets/speakers/freddy.jpeg" alt="Foto de Sacha">
               <div class="card-body">
-                <div class="badges">
-                  <span class="badge badge-secondary">Negocios</span>
-                  <span class="badge badge-danger">Startups</span>
-                </div>
                 <h5 class="card-title">Freddy Vega</h5>
-                <p class="card-text">Vivamus quam mi, egestas eu metus id, mollis suscipit ipsum. In vel mollis mauris. Nunc id sem a lacus tincidunt pretium in in urna. Nam mi nisi, tincidunt ac tincidunt id, fermentum at metus.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4 mb-4">
-            <div class="card">
-              <img class="card-img-top" src="assets/speakers/cvander.jpeg" alt="Foto de Sacha">
-              <div class="card-body">
                 <div class="badges">
                   <span class="badge badge-secondary">Negocios</span>
                   <span class="badge badge-danger">Startups</span>
                 </div>
+                <p class="card-text text-justify">Vivamus quam mi, egestas eu metus id, mollis suscipit ipsum. In vel mollis mauris. Nunc id sem a lacus tincidunt pretium in in urna. Nam mi nisi, tincidunt ac tincidunt id, fermentum at metus.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 mb-4">
+            <div class="card text-center">
+              <img class="rounded-circle" src="assets/speakers/cvander.jpeg" alt="Foto de Sacha">
+              <div class="card-body">
                 <h5 class="card-title">Christian Van Der H.</h5>
-                <p class="card-text">Vivamus quam mi, egestas eu metus id, mollis suscipit ipsum. In vel mollis mauris. Nunc id sem a lacus tincidunt pretium in in urna. Nam mi nisi, tincidunt ac tincidunt id, fermentum at metus.</p>
+                <div class="badges">
+                  <span class="badge badge-secondary">Negocios</span>
+                  <span class="badge badge-danger">Startups</span>
+                </div>
+                <p class="card-text text-justify">Vivamus quam mi, egestas eu metus id, mollis suscipit ipsum. In vel mollis mauris. Nunc id sem a lacus tincidunt pretium in in urna. Nam mi nisi, tincidunt ac tincidunt id, fermentum at metus.</p>
               </div>
             </div>
           </div>
@@ -159,7 +159,7 @@
           <div class="col-12 col-lg-6 pt-4 pb-4">
             <h2>Honolulu - Octubre 2025</h2>
             <p>
-              Honolulu o Honolulú​ es la capital y localidad más grande del estado de Hawái, en los Estados Unidos. Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la isla (aproximadamente 600 km² de superficie).
+              Honolulu o <abbr data-toggle="tooltip" title="Capital de Hawaii">Honolulú​</abbr> es la capital y localidad más grande del estado de Hawái, en los Estados Unidos. Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la isla (aproximadamente 600 km² de superficie).
             </p>
             <a class="btn btn-outline-light" href="https://es.wikipedia.org/wiki/Honolulu">Conoce más</a>
           </div>
@@ -215,7 +215,7 @@
     <!-- /Conviértete en orador -->
 
     <!-- Footer -->
-    <footer id="footer" class="pb-4 pt-4">
+    <footer id="footer" class="pb-4 pt-4"> <!-- padding botom y padding top -->
       <div class="container">
         <div class="row text-center">
           <div class="col-12 col-lg">
